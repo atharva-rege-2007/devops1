@@ -8,7 +8,7 @@ pipeline {
             }
         }
     }
-    post{
+    post {
         sucess {
             echo 'Pipeline Executed Sucessfully!'
         }
