@@ -8,4 +8,12 @@ pipeline {
             }
         }
     }
+    post{
+        sucess{
+            echo 'Pipeline Executed Sucessfully!'
+        }
+        failure{
+            echo 'Pipeline failed. Please checlk the logs for details'
+        }
+    }
 }
